@@ -4,7 +4,7 @@ Before taking this class, I had only heard of Haskell through a friend who happe
 
 ## Functional vs. Imperative Programming
 According to [The Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/standard/linq/functional-vs-imperative-programming#:~:text=With%20an%20imperative%20approach%2C%20a,of%20functions%20to%20be%20executed.) functional programming... 
-> "was explicitly created to support a pure functional approach to problem solving. Functional programming is a form of declarative programming... a functional approach involves composing the problem as a set of functions to be executed. You define carefully the input to each function, and what each function returns".  
+> "was explicitly created to support a pure functional approach to problem solving. Functional programming is a form of declarative programming... a functional approach involves composing the problem as a set of functions to be executed. You define carefully the input to each function, and what each function returns."  
 >
 
 While with imperative programming "a developer writes code that specifies the steps that the computer must take to accomplish the goal."
