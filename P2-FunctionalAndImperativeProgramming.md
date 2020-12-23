@@ -2,7 +2,7 @@
 
 Before taking this class, I had only heard of Haskell through a friend who happened to also be a computer science student. I didn't know what Haskell was, but I had heard of it. As computer science students, many of us are accustomed to hearing about C++, C#, Python, Java, etc. However, upon entering this class I didn't know what a functional vs. imperative programming language was and what the differences were between the two. 
 
-## Functional vs. Imperative Programming
+## Functional and Imperative Programming
 According to [The Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/standard/linq/functional-vs-imperative-programming#:~:text=With%20an%20imperative%20approach%2C%20a,of%20functions%20to%20be%20executed.) functional programming... 
 > "was explicitly created to support a pure functional approach to problem solving. Functional programming is a form of declarative programming... a functional approach involves composing the problem as a set of functions to be executed. You define carefully the input to each function, and what each function returns."  
 >
