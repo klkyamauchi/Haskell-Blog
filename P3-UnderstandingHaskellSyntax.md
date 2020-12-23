@@ -13,8 +13,7 @@ My hope is that this post will provide all that is necessary to grasp the basics
 </code></pre>
 
 #### Types
-<pre><code>
-integer :: Int
+<pre><code>integer :: Int
 integer = 2
 
 str :: String
@@ -31,8 +30,7 @@ list = [1, 2, 3, 4, 5]
 
 #### Arithmetic
 Haskell has all the basic arithmetic functions and follows the same precedence rules as other programming languages. We can also set our own precedence using parentheses. 
-<pre><code>
-1 + 2     -- = 3 Addition
+<pre><code>1 + 2     -- = 3 Addition
 3 * 4     -- = 12 Multiplication
 6 - 5     -- = 1 Subraction
 15 / 3    -- = 5 Division
@@ -44,8 +42,7 @@ Haskell has all the basic arithmetic functions and follows the same precedence r
 </code></pre>
 
 #### Boolean Algebra
-<pre><code>
-&&     -- logical and
+<pre><code>&&     -- logical and
 ||     -- logical or
 not    -- negation
 
@@ -72,8 +69,7 @@ Functions are defined in Haskell first by name then arguments and return type, s
 This declaration is followed by the function body. 
 
 In the following function, plusOne, one argument (an integer) is passed in and the function will return that integer incremented by one!
-<pre><code>
-plusOne :: Int -> Int
+<pre><code>plusOne :: Int -> Int
 plusOne int = int + 1
 </code></pre>
 
