@@ -17,9 +17,9 @@ In Haskell, much like in discrete math with sets and the empty set, we can have 
 </code></pre>
 
 #### List Operators
-: will add an element to the front of a list 
-++ will combine two lists together
-!! will obtain an element at the given index (Note: Haskell uses 0 based indexing)
+: will add an element to the front of a list  
+++ will combine two lists together  
+!! will obtain an element at the given index (Note: Haskell uses 0 based indexing)  
 
 <pre><code>4:[1,2,3] -- becomes the following line
 [4,1,2,3]
@@ -37,11 +37,11 @@ l
 #### Haskell's List Functions
 Just a taste of some of the basic  list functions Haskell has to offer: 
 
-**head** - returns the first element of a given list
-**tail** - returns everyting after the head of a given list
-**last** - returns the last element of a given list
-**init** - returns all but the last element of a given list
-**length** - returns the length of a given list
+**head** - returns the first element of a given list  
+**tail** - returns everyting after the head of a given list  
+**last** - returns the last element of a given list  
+**init** - returns all but the last element of a given list  
+**length** - returns the length of a given list  
 
 <pre><code>head [5,4,3,2,1]     -- returns 5
 tail [5,4,3,2,1]     -- returns [4,3,2,1]     
