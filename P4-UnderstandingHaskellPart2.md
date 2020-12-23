@@ -1,50 +1,51 @@
-## **Understanding Syntax by Implementing Functions**
-### **Data Definitions**
+# Entry #4 - Introduction to Lists
 
-For my first assignment, we were told to implement abasic calculator. To start off, we defined a data type for natural numbers as seen below. 
+Lists in Haskell contain one type, meaning you are unable to put elements of the type Integer in the same list as elements of the type String. Haskell, unlike other programming languages you may be accustomed to can also have *infinite* lists, which can help cut computation time.
 
-<pre><code> data NN = O | S NN 
-</code></pre>
-* We are defining our natural number as either zero (O) or 1 (S) plus some other natural number 
-* In this sense, our S's are like tally marks and we build numbers by concatenating them onto O. 
-
-For example:
-<pre><code> O         -- = 0
- S O       -- = 1 + 0 = 1
- (S (S O)) -- = 1 + 1 + 0 = 2
+##### Some examples of possible lists in Haskell:
+<pre><code>strings = ["hello", "world", "what", "is", "good?"]
+nums = [1,2,3,4,5]
+chars = ["h", "e", "l", "l", "o"]
 </code></pre>
 
-and so on... Note that with numbers greater than 1, we separate the S's with parenthesis. 
+##### More Possible Lists:
+In Haskell, much like in discrete math with sets and the empty set, we can have an empty list, a list containing the empty list, and a list of empty lists.
 
-### **Function Definitions**
-For the next few functions below, I will give examples and outline my thought process while creating them through comments. 
+<pre><code>[]              -- empty list  
+[[]]            -- an empty list containing an empty list
+[[], [], []]    -- a list of empty lists
+</code></pre>
 
-<pre><code> -- addition
-add :: NN -> NN -> NN     -- define the function 
-add O n = n               -- base case: 0 + n = n
-add (S n) m = S (add n m) -- recursive step</code></pre>
+#### List Operators
+: will add an element to the front of a list 
+++ will combine two lists together
+!! will obtain an element at the given index (Note: Haskell uses 0 based indexing)
 
-* In defining the function, we take in two inputs (NN -> NN) and produce another natural number, -> NN
-* In the recursive step, we are pulling out an S and calling the function add again to continue pulling out and concatenating an S onto the result until the base case is reached. 
+<pre><code>4:[1,2,3] -- becomes the following line
+[4,1,2,3]
 
-<pre><code> -- multiplication
-mult :: NN -> NN -> NN           -- define the function
-mult O n = O                     -- base case: 0 * n = 0
-mult (S O) n = n                 -- base case: 1 * n = n
-mult (S n) m = add m (mult n m)  -- recursive step </code></pre>
-* In this recursive step, we want to concatenate an S onto the resulting number (S n) amount of times. 
-* Everytime we concatenate (add) we decrement the amount of times we have to add m amount to the result. 
+["h","e","l"] ++ ["l", "o", "!"] -- becomes the following line
+"hello!"      -- note that a list of chars is simply just a string
 
-<pre><code> -- subtraction 
-subtr :: NN -> NN -> NN        -- define the function
-subtr O n = O                  -- base case: 0 - n = 0 (natural numbers only)
-subtr n O = n                  -- base case: n - 0 = n
-subtr (S n) (S m) = subtr n m  -- recursive step </code></pre>
-* In this recursive step, we continue to subtract n and m (decrementing by 1 (S) each time) until the base cases are hit. 
-* m will become of size 0 or both n and m are of the same size and result in 0. 
+[0, 1, 2, 3, 4] !! 1    -- becomes the following line
+1
 
+"hello world!" !! 3     -- becomes the following line
+l 
+</code></pre>
 
- I found it helpful to think of the steps we take/how we know when to end when preforming simple arithmetic (as in grade school) to figure out the base and recursive steps of the Haskell functions. 
+#### Haskell's List Functions
+Just a taste of some of the basic  list functions Haskell has to offer: 
 
+**head** - returns the first element of a given list
+**tail** - returns everyting after the head of a given list
+**last** - returns the last element of a given list
+**init** - returns all but the last element of a given list
+**length** - returns the length of a given list
 
-
+<pre><code>head [5,4,3,2,1]     -- returns 5
+tail [5,4,3,2,1]     -- returns [4,3,2,1]     
+last [5,4,3,2,1]     -- returns 1
+init [5,4,3,2,1]     -- returns [5,4,3,2]
+length [5,4,3,2,1]   -- retuns 5
+</code></pre>

@@ -2,7 +2,7 @@
 
 By Kaitlynn Yamauchi
 
-Haskell Blog/Tutorial for CPSC 543 - Programming Languages @ Chapman University
+Haskell Blog/Tutorial for CPSC 354 - Programming Languages @ Chapman University
 
 [Post #1: Getting Started - Installing Haskell](https://github.com/klkyamauchi/Haskell-Blog/blob/main/P1-GettingStarted.md)
 
@@ -12,5 +12,15 @@ Haskell Blog/Tutorial for CPSC 543 - Programming Languages @ Chapman University
 
 [Post #4: Understanding Haskell Pt. 2](https://github.com/klkyamauchi/Haskell-Blog/blob/main/P4-UnderstandingHaskellPart2.md)
 
-[Post #5: Introduction to Lambda Calculus](https://github.com/klkyamauchi/Haskell-Blog/blob/main/P5-IntroToLambdaCalculus.md)
+[Post #5: Installing BNFC](https://github.com/klkyamauchi/Haskell-Blog/blob/main/P5-InstallingBNFC.md)
+
+[Post #6: Learning By Doing!](https://github.com/klkyamauchi/Haskell-Blog/blob/main/P6-LearningByDoing.md)
+
+[Post #7: ]()
+
+[Post #8: ]()
+
+[Post #9: ]()
+
+[Post #10: ]()
  
