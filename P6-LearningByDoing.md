@@ -3,7 +3,7 @@ Learning by doing!
 
 ### **Data Definitions**
 
-For my first assignment, we were told to implement abasic calculator. To start off, we defined a data type for natural numbers as seen below. 
+For my first assignment, we were told to implement a basic calculator. To start off, we defined a data type for natural numbers as seen below. 
 
 <pre><code> data NN = O | S NN 
 </code></pre>
