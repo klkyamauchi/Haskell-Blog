@@ -1,4 +1,6 @@
 ## **Understanding Syntax by Implementing Functions**
+Learning by doing!
+
 ### **Data Definitions**
 
 For my first assignment, we were told to implement abasic calculator. To start off, we defined a data type for natural numbers as seen below. 
