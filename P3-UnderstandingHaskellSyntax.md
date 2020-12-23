@@ -55,8 +55,7 @@ not (True && True)  -- False
 
 #### Equality
 You can compare elements of the same type, just as in other programming languages but will run into an error when comparing elements of two different types. 
-<pre><code>
-9 == 9    -- True
+<pre><code>9 == 9    -- True
 3 == 4    -- False
 1 /= 1    -- False
 6 /= 7    -- True
