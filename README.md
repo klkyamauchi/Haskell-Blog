@@ -22,5 +22,5 @@ Haskell Blog/Tutorial for CPSC 354 - Programming Languages @ Chapman University
 
 [Post #9: Turing Completeness ]()
 
-[Post #10: ](https://github.com/klkyamauchi/Haskell-Blog/blob/main/P10-FinalThoughts.md)
+[Post #10: Final Thoughts on Learning Haskell](https://github.com/klkyamauchi/Haskell-Blog/blob/main/P10-FinalThoughts.md)
  
