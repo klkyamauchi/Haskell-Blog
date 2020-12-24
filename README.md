@@ -1,4 +1,4 @@
-# Haskell-Blog
+# Haskell Blog/Tutorial
 
 By Kaitlynn Yamauchi
 
