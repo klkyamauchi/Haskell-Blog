@@ -2,7 +2,7 @@
 
 Abstract Reduction Systems (ARS) were by far my favorite part of this class. While the reductions can be tedious, I find them pretty enjoyable nonetheless. When learning and solving problems with Abstract Reduction Systems, it reminded me a lot of learning about Deterministic Finite Automata (DFAs) in a 'Models of Computation' course I had previously taken. In a DFA, an input is taken in and will go through various states and will either be accepted or rejected. Much like this, an ARS will take an input and will be reduced to different forms and put into an equivalence class based on given rules. This post will help introduce you to Abstract Reduction Systems. 
 
-#### What is an ARS? 
+#### What is an ARS?  
 Abstract Reduction Systems are systems that help us abstract from the syntax of programs. They help us rewrite a set of elements or reduce them given some relation to be applied to them. 
 
 By **formal definition**, an ARS is a set, A, together with a relation → ⊆ $A × A$. This system is denoted as ($A$,→).

@@ -2,7 +2,7 @@
 
 I remember having a bit of trouble when I went to first install BNFC onto my system. I think reinstalled it maybe eight times trying to get it to work. Hopefully this post will help you avoid the extra seven attempts :) 
 
-First be sure to head over to the [BNFC homepage](http://bnfc.digitalgrammars.com/) and download whatever version is compatible with your system. This tutorial will be for a macOS. 
+First be sure to head over to the [BNFC homepage](http://bnfc.digitalgrammars.com/) and download whatever version is compatible with your system. This tutorial will be for a macOS.  
 
 #### Easy installation with Homebrew
 If you do not already have it, I would highly recommend installing Homebrew for your system. It will help you install the packages need that Mac systems do not usually come with.   

@@ -1,7 +1,7 @@
 # Entry #1: Getting Started - Installing Haskell
 
 Before taking this course, I had never been asked to install a language via the command line. With the instructions that were given, it seemed like it would only take a few minutes- simple and easy. 
-
+ 
 The first think I did was head over to the homepage of the Haskell Platform. From there I chose the option to install Haskell onto my macOS system by opening up terminal and pasting in the following line: 
 
 <pre><code>curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh

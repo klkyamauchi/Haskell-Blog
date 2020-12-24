@@ -1,7 +1,7 @@
 # Entry #3 - Understanding Haskell Syntax
 
 Personally, I find that one of the most daunting things when learning a new language is the new syntax that comes along with it. With the imperative languages that I have learned previously, the transition from Python to Java to C++ to C was not all too terrible. The biggest jump was definitely from Python to Java, but after that the differences became minute between the next few. 
-
+  
 With Haskell however, seeing the syntax of a functional language for the first time definitely intimdated me. Just the thought of starting something completely new was a task in and of itself. However, once I got started on the first assignment, things went pretty smoothly. Starting is always the hardest part of a task, but within completing a few functions, completing my first assignment didn't seem all too bad. 
 
 ## Back to The Basics

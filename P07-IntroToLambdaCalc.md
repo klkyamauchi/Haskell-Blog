@@ -9,7 +9,7 @@ Lambda Calculus is a mathematical model or "language" that helps us understand c
  **variables**: can be defined as x, y, z, etc. 
 
  **abstraction**: defined by a function (lambda), the function's arguments followed by a dot, and what the function returns.  
-
+ 
 For example, the function $f(x) = x)$ can be written as $λx.x $ in lambda calculus. 
 
 These abstractions can also be nested. We see the following in lambda calculus: $λx.λy.xy$ is equivalent to $f(x,y) = xy$. 

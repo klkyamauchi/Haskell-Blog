@@ -4,7 +4,7 @@ Lists in Haskell contain one type, meaning you are unable to put elements of the
 
 ##### Some examples of possible lists in Haskell:
 <pre><code>strings = ["hello", "world", "what", "is", "good?"]
-nums = [1,2,3,4,5]
+nums = [1,2,3,4,5] 
 chars = ["h", "e", "l", "l", "o"]
 </code></pre>
 

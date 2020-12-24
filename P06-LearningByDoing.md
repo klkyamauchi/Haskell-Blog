@@ -6,7 +6,7 @@ Learning by doing!
 For my first assignment, we were told to implement a basic calculator. To start off, we defined a data type for natural numbers as seen below. 
 
 <pre><code> data NN = O | S NN 
-</code></pre>
+</code></pre> 
 * We are defining our natural number as either zero (O) or 1 (S) plus some other natural number 
 * In this sense, our S's are like tally marks and we build numbers by concatenating them onto O. 
 
