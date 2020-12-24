@@ -16,7 +16,7 @@ Haskell Blog/Tutorial for CPSC 354 - Programming Languages @ Chapman University
 
 [Post #6: Learning By Doing!](https://github.com/klkyamauchi/Haskell-Blog/blob/main/P6-LearningByDoing.md)
 
-[Post #7: ]()
+[Post #7: Introduction to Lambda Calculus + Helpful Resources](https://github.com/klkyamauchi/Haskell-Blog/blob/main/P7-IntroToLambdaCalc.md)
 
 [Post #8: ]()
 
