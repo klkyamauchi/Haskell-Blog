@@ -76,6 +76,7 @@ plusOne int = int + 1
 Listed below are the references I used to create this page and what helped me learn the basics of Haskell!
 - http://learnyouahaskell.com/starting-out
 - https://andrew.gibiansky.com/blog/haskell/haskell-syntax/
+- http://page.mi.fu-berlin.de/scravy/bridging-the-gap-between-haskell-and-java.pdf
  
 
 

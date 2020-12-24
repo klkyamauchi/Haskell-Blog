@@ -49,3 +49,6 @@ last [5,4,3,2,1]     -- returns 1
 init [5,4,3,2,1]     -- returns [5,4,3,2]
 length [5,4,3,2,1]   -- retuns 5
 </code></pre>
+
+### References
+See the referneces in the [last post](https://github.com/klkyamauchi/Haskell-Blog/blob/main/P3-UnderstandingHaskellSyntax.md) for more in depth discussion on lists in Haskell! 

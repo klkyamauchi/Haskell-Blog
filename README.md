@@ -18,7 +18,7 @@ Haskell Blog/Tutorial for CPSC 354 - Programming Languages @ Chapman University
 
 [Post #7: Introduction to Lambda Calculus + Helpful Resources](https://github.com/klkyamauchi/Haskell-Blog/blob/main/P7-IntroToLambdaCalc.md)
 
-[Post #8: ]()
+[Post #8: Abstract Reduction Systems]()
 
 [Post #9: ]()
 
