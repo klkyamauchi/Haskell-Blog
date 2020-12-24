@@ -20,7 +20,7 @@ Haskell Blog/Tutorial for CPSC 354 - Programming Languages @ Chapman University
 
 [Post #8: Abstract Reduction Systems](https://github.com/klkyamauchi/Haskell-Blog/blob/main/P08-AbstractReductionSystems.md)
 
-[Post #9: ]()
+[Post #9: Turing Completeness ]()
 
-[Post #10: ]()
+[Post #10: ](https://github.com/klkyamauchi/Haskell-Blog/blob/main/P10-FinalThoughts.md)
  
